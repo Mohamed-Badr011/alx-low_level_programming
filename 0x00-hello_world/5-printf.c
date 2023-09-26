@@ -3,9 +3,9 @@
 /**
  * main - Entry point
  *
- * Description - print a string using printf() function
+ * Description: print a string using printf() function
  *
- * Return - 0 (error)
+ * Return: 0 (success)
 */
 
 int main(void)

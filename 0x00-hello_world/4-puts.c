@@ -3,9 +3,9 @@
 /**
  * main - Entry point
  *
- * Description - print a string using puts() function
+ * Description: print a string using puts() function
  *
- * Return - 0 (error)
+ * Return: 0 (success)
 */
 
 int main(void)
