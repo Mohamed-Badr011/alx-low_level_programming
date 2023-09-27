@@ -24,7 +24,7 @@ char *_strchr(char *s, char c)
 	/**
 	 * in case of "c = '\0'" so we return last address in string not "NULL"
 	*/
-	if (!*(s + i))
+	if (c == *(s + i))
 		return (s + i);
 
 	return (NULL);
