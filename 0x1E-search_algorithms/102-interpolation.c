@@ -10,6 +10,7 @@
   */
 int interpolation_search(int *array, size_t size, int value)
 {
+	/*
 	size_t i, l, r;
 
 	if (array == NULL)
@@ -33,5 +34,10 @@ int interpolation_search(int *array, size_t size, int value)
 		else
 			l = i + 1;
 	}
+	*/
+
+	(void)array;
+	(void)size;
+	(void)value;
 	return (-1);
 }

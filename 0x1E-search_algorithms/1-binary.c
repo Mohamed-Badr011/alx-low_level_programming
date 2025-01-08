@@ -9,6 +9,7 @@
 */
 int binary_search(int *array, size_t size, int value)
 {
+	/*
 	size_t min = 0, max = size - 1, i;
 	size_t mid;
 
@@ -23,11 +24,16 @@ int binary_search(int *array, size_t size, int value)
 			printf("\n");
 			if (array[mid] == value)
 				return (mid);
-			if (array[mid] > value) /*ignore the left half*/
+			if (array[mid] > value) //ignore the left half*
 				max = mid - 1;
-			if (array[mid] < value) /*ignore the right half*/
+			if (array[mid] < value) //ignore the right half*
 				min = mid + 1;
 		}
 	}
+*/
+
+	(void)array;
+	(void)size;
+	(void)value;
 	return (-1);
 }

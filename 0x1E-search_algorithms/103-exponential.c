@@ -45,6 +45,7 @@ int _binary_search(int *array, size_t left, size_t right, int value)
   */
 int exponential_search(int *array, size_t size, int value)
 {
+	/*
 	size_t i = 0, right;
 
 	if (array == NULL)
@@ -59,4 +60,10 @@ int exponential_search(int *array, size_t size, int value)
 	right = i < size ? i : size - 1;
 	printf("Value found between indexes [%ld] and [%ld]\n", i / 2, right);
 	return (_binary_search(array, i / 2, right, value));
+	*/
+
+	(void)array;
+	(void)size;
+	(void)value;
+	return (-1);
 }

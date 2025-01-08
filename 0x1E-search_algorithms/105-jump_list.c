@@ -10,6 +10,7 @@
  */
 listint_t *jump_list(listint_t *list, size_t size, int value)
 {
+	/*
 	size_t step, step_size;
 	listint_t *node, *jump;
 
@@ -37,4 +38,10 @@ listint_t *jump_list(listint_t *list, size_t size, int value)
 	printf("Value checked at index [%ld] = [%d]\n", node->index, node->n);
 
 	return (node->n == value ? node : NULL);
+	*/
+
+	(void)list;
+	(void)size;
+	(void)value;
+	return (NULL);
 }

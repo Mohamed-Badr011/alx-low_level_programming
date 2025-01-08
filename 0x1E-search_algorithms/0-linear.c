@@ -9,8 +9,9 @@
 */
 int linear_search(int *array, size_t size, int value)
 {
-	size_t i;
-
+	/*
+	 * size_t i;
+	 *
 	if (array)
 	{
 		for (i = 0; i < size; i++)
@@ -20,5 +21,10 @@ int linear_search(int *array, size_t size, int value)
 				return (i);
 		}
 	}
+	*/
+
+	(void)array;
+	(void)size;
+	(void)value;
 	return (-1);
 }
